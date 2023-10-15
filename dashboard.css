@@ -1,0 +1,45 @@
+.side-navbar {
+    width: 250px;
+    height: 100vh;
+    background-color: #d5abbe;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 15px;
+}
+
+.navbar-items {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    gap: 10px;
+}
+
+.navbar-items a {
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-items a:hover {
+    background-color: #d5abbe;
+}
+
+.main-content {
+    margin-left: 280px;
+    padding-top: 50px;
+}
+
+.footer {
+    background-color: #d5abbe !important;
+    border-radius: 8px;
+}
